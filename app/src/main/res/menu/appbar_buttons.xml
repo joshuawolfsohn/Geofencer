@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/action_findme"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        android:orderInCategory="1"
+        android:title="Find my location"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_helpme"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:orderInCategory="2"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+
+</menu>
